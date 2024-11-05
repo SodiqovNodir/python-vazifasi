@@ -20,5 +20,11 @@ while True:
     if yosh.isdigit():
         yosh = int(yosh)
         print(yosh)
+
+    while True:
+        if tel.startswith("+998"):
+            break
+        else:
+            print("Iltimos telefon raqmingizni togri kiriting.")
     
 
