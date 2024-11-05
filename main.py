@@ -17,4 +17,8 @@ while True:
     elektron_p = input('Email ni kiriting: ')
     manzil = input('manzilingizni kiriting: ')
 
+    if yosh.isdigit():
+        yosh = int(yosh)
+        print(yosh)
+    
 
